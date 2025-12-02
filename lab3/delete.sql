@@ -1,0 +1,10 @@
+SELECT * FROM TICKET WHERE ticket_id = 6;
+DELETE FROM TICKET WHERE ticket_id = 6;
+SELECT * FROM TICKET WHERE ticket_id = 6;
+
+
+SELECT * FROM BOOKING WHERE booking_id = 2;
+DELETE FROM TICKET WHERE booking_id = 2;
+DELETE FROM BOOKING WHERE booking_id = 2;
+SELECT * FROM BOOKING WHERE booking_id = 2;
+
